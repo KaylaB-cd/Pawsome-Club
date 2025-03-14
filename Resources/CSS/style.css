@@ -1,0 +1,22 @@
+/* universal styles */
+
+html {
+    font-family: "Rum Raisin";
+    font-size: 20px;
+}
+
+/* header */
+.header {
+    display: flex;
+}
+
+.header .image {
+    width: 250px;
+    height: 100px;
+    }
+
+.header-text {
+    display: flex;
+    justify-content: center;
+}
+
