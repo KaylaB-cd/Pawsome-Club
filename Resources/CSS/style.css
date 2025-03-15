@@ -20,6 +20,8 @@ html {
     display: flex;
     justify-content: center;
     background-color: azure;
+    height: 200px;
+    align-items: center;
 }
 
 nav {
@@ -36,5 +38,19 @@ nav {
 
 a {
     padding: 0.75em;
+}
+
+table {
+    display: flex;
+    justify-content: flex-start;
+    background-color: beige;
+    color: crimson;
+    padding-left: 30px;
+    font-family: "Work Sans";
+
+}
+
+td {
+   border: 2px solid beige;
 }
 
