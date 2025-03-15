@@ -8,6 +8,7 @@ html {
 /* header */
 .header {
     display: flex;
+    width: 100%;
 }
 
 .header .image {
@@ -18,5 +19,22 @@ html {
 .header-text {
     display: flex;
     justify-content: center;
+    background-color: azure;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    text-align: right;
+    padding: 0 auto;
+    width: 90%;
+}
+
+.desktop {
+    display: inline-block;
+}
+
+a {
+    padding: 0.75em;
 }
 
