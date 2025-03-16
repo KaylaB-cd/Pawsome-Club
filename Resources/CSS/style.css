@@ -9,26 +9,32 @@ html {
 .header {
     display: flex;
     width: 100%;
+    background-color: azure;
+    margin-top: 0;
+    height: 50px;
 }
 
 .header .image {
-    width: 250px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
+    align-items: center;
     }
 
 .header-text {
     display: flex;
     justify-content: center;
     background-color: azure;
-    height: 200px;
+    height: 150px;
     align-items: center;
+    color: olive;
 }
 
 nav {
     display: flex;
     position: absolute;
     text-align: right;
-    padding: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
     width: 90%;
 }
 
@@ -38,19 +44,56 @@ nav {
 
 a {
     padding: 0.75em;
+    color: darkolivegreen;
 }
 
 table {
     display: flex;
     justify-content: flex-start;
-    background-color: beige;
-    color: crimson;
+    background-color: rgb(196, 245, 196);
+    color: rgb(9, 110, 97);
     padding-left: 30px;
     font-family: "Work Sans";
 
 }
 
 td {
-   border: 2px solid beige;
+   border: 2px solid rgb(196, 245, 196);
 }
+
+/* levels pictures */
+
+.tricks-container {
+    width: 90%; 
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    margin-bottom: 2rem; 
+    margin-top: 10px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tricks-box {
+        width: 30%;     
+        height: 300px;     
+        margin: 0 0.5rem 1rem 0.5rem;        
+    } 
+
+    .tricks-box img { 
+        width: 90%;     
+        height: 250px;     
+        margin-left: 15px;     
+    } 
+
+    
+
+    .tricks-text p {
+        text-align: center;
+        align-items: flex-start;
+        font-family: "Rum Raisin";
+        font-size: 32px;
+        height: 50px;
+
+    }
 
