@@ -114,3 +114,16 @@ td {
 
     /* pictures */
 
+    .pictures {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: antiquewhite;
+    }
+
+    .pictures img {
+        width: 350px;
+        height: 250px;
+        border: 3px ridge olivedrab;
+        margin-top: 10px;
+    }
+
